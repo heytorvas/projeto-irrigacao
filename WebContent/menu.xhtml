@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<meta charset="utf-8" name="viewport"
+		content="width=device-width, initial-scale=1"
+		http-equiv="X-UA-Conpatible" />
+	<h:outputStylesheet library="css" name="bootstrap.css" />
+	<h:outputStylesheet library="css" name="style.css" />
+
+	<title>Projeto Irrigação</title>
+</h:head>
+<h:body>
+
+	<center>
+		<div class="destaque bg-success">
+			<h1 class="titulo-projeto">Projeto Irrigação</h1>
+		</div>
+		<div class="container">
+			<div class="row"></div>
+			<div class="row corpoInfo">
+
+				<div class="col lg-6">
+					<h:form>
+						<div class="card">
+							<div class="card-header">
+								<i class="fas fa-thermometer-half"></i> Luminosidade
+							</div>
+							<div class="card-body">
+                                 <h:form>
+	
+		                       <h:inputHidden id="execId" value="#{irrigacaoController.dados}"></h:inputHidden>
+		                       
+		                       <h:outputText id="luminosidadeId" value="#{irrigacaoController.luminosidade}" />
+		                       <br></br>
+		                       
+		                       <h:commandButton value="Atualizar" styleClass="btn btn-success"
+									actionListener="#{irrigacaoController.setDados}">
+									<f:ajax execute="execId" render="luminosidadeId" />
+								</h:commandButton>
+		
+	                            </h:form>
+
+							</div>
+						</div>
+					</h:form>
+				</div>
+				<div class="col lg-6">
+					<h:form>
+						<div class="card">
+							<div class="card-header">
+								<i class="fas fa-tint"></i> Umidade do Ar
+							</div>
+							<div class="card-body">
+								<h:form>
+	
+		                       <h:inputHidden id="IdDados" value="#{irrigacaoController.dados}"></h:inputHidden>
+		                       
+		                       <h:outputText id="luminosidadeId" value="#{irrigacaoController.luminosidade}" />
+		                       <br></br>
+		                       
+		                       <h:commandButton value="Atualizar" styleClass="btn btn-success"
+									actionListener="#{irrigacaoController.setDados}">
+									<f:ajax execute="execId" render="luminosidadeId" />
+								</h:commandButton>
+		
+	                            </h:form>
+								
+							</div>
+						</div>
+					</h:form>
+				</div>
+				<div class="col lg-6">
+					<h:form>
+						<div class="card">
+							<div class="card-header">
+								<i class="fas fa-tint"></i> Temperatura do Ar
+							</div>
+							<div class="card-body">
+								<h:form>
+	
+		                       <h:inputHidden id="IdDados" value="#{irrigacaoController.dados}"></h:inputHidden>
+		                       
+		                       <h:outputText id="luminosidadeId" value="#{irrigacaoController.luminosidade}" />
+		                       <br></br>
+		                       
+		                       <h:commandButton value="Atualizar" styleClass="btn btn-success"
+									actionListener="#{irrigacaoController.setDados}">
+									<f:ajax execute="execId" render="luminosidadeId" />
+								</h:commandButton>
+		
+	                            </h:form>
+								
+							</div>
+						</div>
+					</h:form>
+				</div>
+				<div class="col lg-6">
+					<h:form>
+						<div class="card">
+							<div class="card-header">
+								<i class="fas fa-tint"></i> Leitura do solo
+							</div>
+							<div class="card-body">
+								<h:form>
+	
+		                       <h:inputHidden id="IdDados" value="#{irrigacaoController.dados}"></h:inputHidden>
+		                       
+		                       <h:outputText id="luminosidadeId" value="#{irrigacaoController.luminosidade}" />
+		                       <br></br>
+		                       
+		                       <h:commandButton value="Atualizar" styleClass="btn btn-success"
+									actionListener="#{irrigacaoController.setDados}">
+									<f:ajax execute="execId" render="luminosidadeId" />
+								</h:commandButton>
+		
+	                            </h:form>
+								
+							</div>
+						</div>
+					</h:form>
+				</div>
+			</div>
+		</div>
+
+	</center>
+</h:body>
+</html>
