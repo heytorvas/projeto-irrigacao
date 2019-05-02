@@ -1,0 +1,158 @@
+Leitura:		 20
+Umidade do AR:		52.90%
+Temperatura do AR:	25.60*C
+Luminosidade:		803
+Leitura do solo:	Solo  seco
+
+
+Iniciando SD Card...Cartao SD iniciado com sucesso!
+[2161] Getting IP...
+[4839] IP:172.16.90.59
+[4840] 
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v0.6.1 on Arduino Mega
+
+[4958] Connecting to blynk-cloud.com:80
+[5356] Ready (ping: 149ms).
+Leitura:		 1
+Umidade do AR:		53.30%
+Temperatura do AR:	25.60*C
+Luminosidade:		803
+Leitura do solo:	Solo  seco
+
+Leitura:		 2
+Umidade do AR:		53.30%
+Temperatura do AR:	25.60*C
+Luminosidade:		802
+Leitura do solo:	Solo  seco
+
+Leitura:		 3
+Umidade do AR:		53.60%
+Temperatura do AR:	25.60*C
+Luminosidade:		801
+Leitura do solo:	Solo  seco
+
+Leitura:		 4
+Umidade do AR:		53.70%
+Temperatura do AR:	25.60*C
+Luminosidade:		805
+Leitura do solo:	Solo  seco
+
+Leitura:		 5
+Umidade do AR:		53.80%
+Temperatura do AR:	25.60*C
+Luminosidade:		801
+Leitura do solo:	Solo  seco
+
+Leitura:		 6
+Umidade do AR:		53.30%
+Temperatura do AR:	25.60*C
+Luminosidade:		802
+Leitura do solo:	Solo  seco
+
+Leitura:		 7
+Umidade do AR:		53.10%
+Temperatura do AR:	25.60*C
+Luminosidade:		803
+Leitura do solo:	Solo  seco
+
+Leitura:		 8
+Umidade do AR:		52.80%
+Temperatura do AR:	25.60*C
+Luminosidade:		804
+Leitura do solo:	Solo  seco
+
+Leitura:		 9
+Umidade do AR:		52.70%
+Temperatura do AR:	25.60*C
+Luminosidade:		811
+Leitura do solo:	Solo  seco
+
+Leitura:		 10
+Umidade do AR:		52.60%
+Temperatura do AR:	25.60*C
+Luminosidade:		798
+Leitura do solo:	Solo  seco
+
+Leitura:		 11
+Umidade do AR:		52.70%
+Temperatura do AR:	25.60*C
+Luminosidade:		777
+Leitura do solo:	Solo  seco
+
+
+Iniciando SD Card...Cartao SD iniciado com sucesso!
+[2161] Getting IP...
+[4789] IP:172.16.90.59
+[4790] 
+    ___  __          __
+   / _ )/ /_ _____  / /__
+  / _  / / // / _ \/  '_/
+ /____/_/\_, /_//_/_/\_\
+        /___/ v0.6.1 on Arduino Mega
+
+[4908] Connecting to blynk-cloud.com:80
+[5281] Ready (ping: 138ms).
+Leitura:		 1
+Umidade do AR:		52.80%
+Temperatura do AR:	25.60*C
+Luminosidade:		793
+Leitura do solo:	Solo  seco
+
+Leitura:		 2
+Umidade do AR:		52.70%
+Temperatura do AR:	25.60*C
+Luminosidade:		792
+Leitura do solo:	Solo  seco
+
+Leitura:		 3
+Umidade do AR:		52.30%
+Temperatura do AR:	25.60*C
+Luminosidade:		792
+Leitura do solo:	Solo  seco
+
+Leitura:		 4
+Umidade do AR:		52.30%
+Temperatura do AR:	25.60*C
+Luminosidade:		793
+Leitura do solo:	Solo  seco
+
+Leitura:		 5
+Umidade do AR:		52.50%
+Temperatura do AR:	25.60*C
+Luminosidade:		792
+Leitura do solo:	Solo  seco
+
+Leitura:		 6
+Umidade do AR:		52.90%
+Temperatura do AR:	25.50*C
+Luminosidade:		792
+Leitura do solo:	Solo  seco
+
+Leitura:		 7
+Umidade do AR:		52.20%
+Temperatura do AR:	25.60*C
+Luminosidade:		794
+Leitura do solo:	Solo  seco
+
+Leitura:		 8
+Umidade do AR:		51.80%
+Temperatura do AR:	25.60*C
+Luminosidade:		795
+Leitura do solo:	Solo  seco
+
+Leitura:		 9
+Umidade do AR:		51.80%
+Temperatura do AR:	25.60*C
+Luminosidade:		795
+Leitura do solo:	Solo  seco
+
+Leitura:		 10
+Umidade do AR:		51.60%
+Temperatura do AR:	25.60*C
+Luminosidade:		791
+Leitura do solo:	Solo  seco
+
