@@ -1,11 +1,22 @@
-package application;
 
 import java.io.IOException;
+import java.io.Serializable;
 
 import javax.faces.application.FacesMessage;
 import javax.faces.context.FacesContext;
+import javax.faces.view.ViewScoped;
+import javax.inject.Named;
 
-public class Util {
+@Named
+@ViewScoped
+public class BotaoController implements Serializable {
+
+	private static final long serialVersionUID = 7043081925619872495L;
+
+	public void entrarGrafico() {
+		redirect("grafico.xhtml");
+	}
+
 	public static void redirect(String url) {
 		try {
 			FacesContext.getCurrentInstance().getExternalContext().redirect(url);
@@ -18,4 +29,5 @@ public class Util {
 	public static void addMessageError(String message) {
 		FacesContext.getCurrentInstance().addMessage("", new FacesMessage(message));
 	}
+
 }

@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
 	xmlns:f="http://xmlns.jcp.org/jsf/core"
-	xmlns:h="http://java.sun.com/jsf/html">
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
 
 <h:head>
 	<meta charset="utf-8" name="viewport"
@@ -16,7 +17,7 @@
 
 	<!--[if IE]><link rel="shortcut icon" href="resources/img/favicon.ico" /><![endif]-->
 	<link rel="icon" href="resources/img/favicon.ico" />
-	
+
 	<title>Projeto Irrigação</title>
 </h:head>
 
@@ -31,7 +32,6 @@
 		<div class="container">
 			<h:form>
 				<div class="row corpoInfo">
-
 					<div class="col lg-6">
 						<div class="card">
 							<div class="card-header">
@@ -106,10 +106,17 @@
 							<f:ajax execute="execUmid execTemp execLum execSolo"
 								render="umidadeArId temperaturaArId luminosidadeId statusSoloId" />
 						</h:commandButton>
-						<br></br>
-						<br></br>
 					</div>
 
+				</div>
+				<div class="row corpoInfoBotao">
+					<div class="col lg-6">
+						<h:commandButton value="Ver Gráficos"
+							styleClass="btn btn-info btn-lg"
+							action="#{botaoController.entrarGrafico}">
+						</h:commandButton>
+						<br></br> <br></br>
+					</div>
 				</div>
 
 			</h:form>
