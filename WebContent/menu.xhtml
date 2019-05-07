@@ -26,7 +26,7 @@
 	<center>
 
 		<div class="destaque bg-success">
-			<h1 class="titulo-projeto">Projeto Irrigação</h1>
+			<img class="titulo-projeto logo" src="resources/img/logo.png" />
 		</div>
 
 		<div class="container">
@@ -99,7 +99,6 @@
 				</div>
 
 				<div class="row corpoInfo">
-
 					<div class="col lg-6">
 						<h:commandButton value="Atualizar"
 							styleClass="btn btn-success btn-lg">
@@ -107,12 +106,10 @@
 								render="umidadeArId temperaturaArId luminosidadeId statusSoloId" />
 						</h:commandButton>
 					</div>
-
 				</div>
 				<div class="row corpoInfoBotao">
 					<div class="col lg-6">
-						<h:commandButton value="Ver Gráficos"
-							styleClass="btn btn-info btn-lg"
+						<h:commandButton value="Gráficos" styleClass="btn btn-info btn-lg"
 							action="#{botaoController.entrarGrafico}">
 						</h:commandButton>
 						<br></br> <br></br>

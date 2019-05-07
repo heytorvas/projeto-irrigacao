@@ -74,7 +74,7 @@ public class IrrigacaoController implements Serializable {
 	public String getStatusSolo() {
 		String retorno = "";
 		if (dados != null) {
-			String[] auxiliar = statusSolo.trim().split(":");
+			String[] auxiliar = statusSolo.split("Solo");
 			retorno = auxiliar[1];
 		}
 		return retorno;
